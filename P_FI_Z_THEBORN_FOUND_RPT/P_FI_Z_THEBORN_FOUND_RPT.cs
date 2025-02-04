@@ -203,6 +203,9 @@ namespace account
                 param[2] = D.GetString(DTP_등록기간.EndDateToString);       //품목
 
 
+
+
+
                 MsgControl.ShowMsg("자료 조회중입니다. 잠시만 기다려주세요.");
 
                 _flex.Binding = _biz.Search(param);

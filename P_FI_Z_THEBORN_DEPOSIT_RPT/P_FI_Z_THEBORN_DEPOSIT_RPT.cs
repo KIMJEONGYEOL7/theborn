@@ -59,6 +59,8 @@ namespace account
         {
             InitializeComponent();
 
+
+
             MainGrids = new FlexGrid[] { _flex };
             //DataChanged += new EventHandler(Page_DataChanged);
         }
